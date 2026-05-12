@@ -1,0 +1,28 @@
+package com.namma.platform.viewmodel
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.namma.platform.model.Station
+import com.namma.platform.model.Train
+
+class TrainViewModel : ViewModel() {
+    private val _selectedStation = MutableLiveData<Station>()
+    val selectedStation: LiveData<Station> = _selectedStation
+
+    private val _trainList = MutableLiveData<List<Train>>()
+    val trainList: LiveData<List<Train>> = _trainList
+
+    fun selectStation(station: Station) {
+        _selectedStation.value = station
+        _trainList.value = station.trains.take(3)
+    }
+
+    fun buildAnnouncement(train: Train): String {
+        return "ಗಮನಿಸಿ, ${train.trainNameKn}, ರೈಲು ಸಂಖ್ಯೆ ${train.trainNumber}, ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಸಂಖ್ಯೆ ${train.platform} ಗೆ ಶೀಘ್ರದಲ್ಲೇ ಬರುತ್ತಿದೆ. ಜನರಲ್ ಬೋಗಿಯು ಇಂಜಿನ್ ನಂತರ ಇರುತ್ತದೆ."
+    }
+
+    fun getCoachPosition(train: Train): Int {
+        return train.coachSequence.indexOfFirst { it == "GEN" }
+    }
+}

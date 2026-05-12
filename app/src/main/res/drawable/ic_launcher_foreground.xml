@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="18"
+        android:translateY="18">
+        <!-- Main Train Body (Deep Navy for contrast) -->
+        <path
+            android:fillColor="#0D1B2A"
+            android:pathData="M12,12h48v36c0,6.6 -5.4,12 -12,12h-24c-6.6,0 -12,-5.4 -12,-12z" />
+        <!-- Train Roof/Top -->
+        <path
+            android:fillColor="#0D1B2A"
+            android:pathData="M16,8h40v4h-40z" />
+        <!-- Windows (Yellow accent) -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M18,18h14v12h-14zM40,18h14v12h-14z" />
+        <!-- Headlight -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M32,48a4,4 0,1 0,8 0a4,4 0,1 0,-8 0" />
+        <!-- Bottom / Cowcatcher -->
+        <path
+            android:fillColor="#0D1B2A"
+            android:pathData="M10,60l5,8h42l5,-8z" />
+    </group>
+</vector>

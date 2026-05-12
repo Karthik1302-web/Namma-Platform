@@ -1,0 +1,392 @@
+{
+  "stations": [
+    {
+      "station_id": "HAS",
+      "station_name_en": "Hassan",
+      "station_name_kn": "ಹಾಸನ",
+      "trains": [
+        {
+          "train_id": "T001",
+          "train_number": "16586",
+          "train_name_en": "Murdeshwar SMVT Bengaluru Express",
+          "train_name_kn": "ಮುರಡೇಶ್ವರ ಬೆಂಗಳೂರು ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "2",
+          "scheduled_time": "00:40",
+          "destination_en": "Bengaluru",
+          "coach_sequence": ["Engine","GEN","GEN","L","S1","S2","S3","S4"],
+          "stops": [
+            {"station_name":"Murdeshwar",     "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Kumta",          "arrival":"22:10", "departed":true, "is_current":false},
+            {"station_name":"Karwar",         "arrival":"23:30", "departed":true, "is_current":false},
+            {"station_name":"Mangaluru",      "arrival":"01:00", "departed":true, "is_current":false},
+            {"station_name":"Sakleshpur",     "arrival":"03:20", "departed":true, "is_current":false},
+            {"station_name":"Hassan",         "arrival":"00:40", "departed":false,"is_current":true},
+            {"station_name":"Mysuru",         "arrival":"03:15", "departed":false,"is_current":false},
+            {"station_name":"Mandya",         "arrival":"04:21", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"06:00", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T002",
+          "train_number": "17302",
+          "train_name_en": "Belagavi Mysuru Express",
+          "train_name_kn": "ಬೆಳಗಾವಿ ಮೈಸೂರು ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "1",
+          "scheduled_time": "05:10",
+          "destination_en": "Mysuru",
+          "coach_sequence": ["Engine","GEN","GEN","L","S1","S2","S3"],
+          "stops": [
+            {"station_name":"Belagavi",       "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Davangere",      "arrival":"02:30", "departed":true, "is_current":false},
+            {"station_name":"Arsikere",       "arrival":"04:30", "departed":true, "is_current":false},
+            {"station_name":"Hassan",         "arrival":"05:10", "departed":false,"is_current":true},
+            {"station_name":"Holenarasipur",  "arrival":"05:45", "departed":false,"is_current":false},
+            {"station_name":"Mysuru",         "arrival":"07:55", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T003",
+          "train_number": "16589",
+          "train_name_en": "Rani Chennamma Express",
+          "train_name_kn": "ರಾಣಿ ಚೆನ್ನಮ್ಮ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "3",
+          "scheduled_time": "07:30",
+          "destination_en": "Bengaluru",
+          "coach_sequence": ["Engine","GEN","GEN","L","S1","S2","S3","S4","S5"],
+          "stops": [
+            {"station_name":"Dharwad",        "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Hubballi",       "arrival":"22:45", "departed":true, "is_current":false},
+            {"station_name":"Davangere",      "arrival":"02:00", "departed":true, "is_current":false},
+            {"station_name":"Arsikere",       "arrival":"06:30", "departed":true, "is_current":false},
+            {"station_name":"Hassan",         "arrival":"07:30", "departed":false,"is_current":true},
+            {"station_name":"Mysuru",         "arrival":"10:10", "departed":false,"is_current":false},
+            {"station_name":"Mandya",         "arrival":"11:00", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"12:30", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T004",
+          "train_number": "16205",
+          "train_name_en": "Talaguppa Mysuru Intercity Express",
+          "train_name_kn": "ತಾಳಗುಪ್ಪ ಮೈಸೂರು ಇಂಟರ್‌ಸಿಟಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "1",
+          "scheduled_time": "11:00",
+          "destination_en": "Mysuru",
+          "coach_sequence": ["Engine","GEN","GEN","GEN","L","S1","S2"],
+          "stops": [
+            {"station_name":"Talaguppa",      "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Shimoga Town",   "arrival":"07:30", "departed":true, "is_current":false},
+            {"station_name":"Arsikere",       "arrival":"10:00", "departed":true, "is_current":false},
+            {"station_name":"Hassan",         "arrival":"11:00", "departed":false,"is_current":true},
+            {"station_name":"Mysuru",         "arrival":"13:45", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T005",
+          "train_number": "12785",
+          "train_name_en": "Kochuveli SF Express",
+          "train_name_kn": "ಕೊಚುವೇಲಿ ಸೂಪರ್‌ಫಾಸ್ಟ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "2",
+          "scheduled_time": "15:20",
+          "destination_en": "Kochuveli",
+          "coach_sequence": ["Engine","GEN","L","S1","S2","S3","S4","A1"],
+          "stops": [
+            {"station_name":"Bengaluru City", "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Mysuru",         "arrival":"10:00", "departed":true, "is_current":false},
+            {"station_name":"Hassan",         "arrival":"15:20", "departed":false,"is_current":true},
+            {"station_name":"Sakleshpur",     "arrival":"16:30", "departed":false,"is_current":false},
+            {"station_name":"Mangaluru",      "arrival":"20:00", "departed":false,"is_current":false},
+            {"station_name":"Kozhikode",      "arrival":"02:30", "departed":false,"is_current":false},
+            {"station_name":"Kochuveli",      "arrival":"08:00", "departed":false,"is_current":false}
+          ]
+        }
+      ]
+    },
+    {
+      "station_id": "MYS",
+      "station_name_en": "Mysuru",
+      "station_name_kn": "ಮೈಸೂರು",
+      "trains": [
+        {
+          "train_id": "T006",
+          "train_number": "12007",
+          "train_name_en": "Mysuru Shatabdi Express",
+          "train_name_kn": "ಮೈಸೂರು ಶತಾಬ್ದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "1",
+          "scheduled_time": "06:10",
+          "destination_en": "Bengaluru",
+          "coach_sequence": ["Engine","CC1","CC2","CC3","CC4","EC1"],
+          "stops": [
+            {"station_name":"Mysuru",         "arrival":"Origin","departed":false,"is_current":true},
+            {"station_name":"Mandya",         "arrival":"07:00", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"08:30", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T007",
+          "train_number": "16021",
+          "train_name_en": "Kaveri Express",
+          "train_name_kn": "ಕಾವೇರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "2",
+          "scheduled_time": "08:45",
+          "destination_en": "Bengaluru",
+          "coach_sequence": ["Engine","GEN","GEN","GEN","L","S1","S2","S3","S4"],
+          "stops": [
+            {"station_name":"Mysuru",         "arrival":"Origin","departed":false,"is_current":true},
+            {"station_name":"Srirangapatna",  "arrival":"09:05", "departed":false,"is_current":false},
+            {"station_name":"Pandavapura",    "arrival":"09:20", "departed":false,"is_current":false},
+            {"station_name":"Mandya",         "arrival":"09:40", "departed":false,"is_current":false},
+            {"station_name":"Maddur",         "arrival":"10:05", "departed":false,"is_current":false},
+            {"station_name":"Channapatna",    "arrival":"10:20", "departed":false,"is_current":false},
+            {"station_name":"Ramanagar",    "arrival":"10:40", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"12:00", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T008",
+          "train_number": "20664",
+          "train_name_en": "Vande Bharat Express",
+          "train_name_kn": "ವಂದೇ ಭಾರತ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "3",
+          "scheduled_time": "14:30",
+          "destination_en": "Chennai",
+          "coach_sequence": ["Engine","CC1","CC2","CC3","CC4","CC5","EC1"],
+          "stops": [
+            {"station_name":"Mysuru",         "arrival":"Origin","departed":false,"is_current":true},
+            {"station_name":"Mandya",         "arrival":"15:10", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"16:30", "departed":false,"is_current":false},
+            {"station_name":"Katpadi",        "arrival":"20:00", "departed":false,"is_current":false},
+            {"station_name":"Chennai Central","arrival":"21:30", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T009",
+          "train_number": "16586",
+          "train_name_en": "Murdeshwar Express",
+          "train_name_kn": "ಮುರಡೇಶ್ವರ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "4",
+          "scheduled_time": "17:10",
+          "destination_en": "Bengaluru",
+          "coach_sequence": ["Engine","GEN","GEN","S1","S2","S3","L","S4"],
+          "stops": [
+            {"station_name":"Murdeshwar",     "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Mangaluru",      "arrival":"13:30", "departed":true, "is_current":false},
+            {"station_name":"Hassan",         "arrival":"16:00", "departed":true, "is_current":false},
+            {"station_name":"Mysuru",         "arrival":"17:10", "departed":false,"is_current":true},
+            {"station_name":"Mandya",         "arrival":"18:05", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"19:30", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T010",
+          "train_number": "22682",
+          "train_name_en": "Mysuru Rajdhani Express",
+          "train_name_kn": "ಮೈಸೂರು ರಾಜಧಾನಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "1",
+          "scheduled_time": "21:00",
+          "destination_en": "New Delhi",
+          "coach_sequence": ["Engine","A1","A2","B1","B2","B3","B4","H1"],
+          "stops": [
+            {"station_name":"Mysuru",         "arrival":"Origin","departed":false,"is_current":true},
+            {"station_name":"Mandya",         "arrival":"21:45", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"23:30", "departed":false,"is_current":false},
+            {"station_name":"Pune",           "arrival":"11:00", "departed":false,"is_current":false},
+            {"station_name":"Mumbai",         "arrival":"17:00", "departed":false,"is_current":false},
+            {"station_name":"New Delhi",      "arrival":"10:00", "departed":false,"is_current":false}
+          ]
+        }
+      ]
+    },
+    {
+      "station_id": "SBC",
+      "station_name_en": "Bengaluru City",
+      "station_name_kn": "ಬೆಂಗಳೂರು ನಗರ",
+      "trains": [
+        {
+          "train_id": "T011",
+          "train_number": "12007",
+          "train_name_en": "Mysuru Shatabdi Express",
+          "train_name_kn": "ಮೈಸೂರು ಶತಾಬ್ದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "5",
+          "scheduled_time": "11:00",
+          "destination_en": "Mysuru",
+          "coach_sequence": ["Engine","CC1","CC2","CC3","CC4","EC1"],
+          "stops": [
+            {"station_name":"Bengaluru City", "arrival":"Origin","departed":false,"is_current":true},
+            {"station_name":"Mandya",         "arrival":"12:15", "departed":false,"is_current":false},
+            {"station_name":"Mysuru",         "arrival":"13:00", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T012",
+          "train_number": "16022",
+          "train_name_en": "Kaveri Express",
+          "train_name_kn": "ಕಾವೇರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "3",
+          "scheduled_time": "14:30",
+          "destination_en": "Mysuru",
+          "coach_sequence": ["Engine","GEN","GEN","GEN","L","S1","S2","S3","S4"],
+          "stops": [
+            {"station_name":"Bengaluru City", "arrival":"Origin","departed":false,"is_current":true},
+            {"station_name":"Ramanagar",    "arrival":"15:10", "departed":false,"is_current":false},
+            {"station_name":"Channapatna",    "arrival":"15:30", "departed":false,"is_current":false},
+            {"station_name":"Maddur",         "arrival":"15:50", "departed":false,"is_current":false},
+            {"station_name":"Mandya",         "arrival":"16:10", "departed":false,"is_current":false},
+            {"station_name":"Pandavapura",    "arrival":"16:30", "departed":false,"is_current":false},
+            {"station_name":"Srirangapatna",  "arrival":"16:45", "departed":false,"is_current":false},
+            {"station_name":"Mysuru",         "arrival":"17:15", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T013",
+          "train_number": "20663",
+          "train_name_en": "Vande Bharat Express",
+          "train_name_kn": "ವಂದೇ ಭಾರತ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "6",
+          "scheduled_time": "06:00",
+          "destination_en": "Chennai",
+          "coach_sequence": ["Engine","CC1","CC2","CC3","CC4","CC5","EC1"],
+          "stops": [
+            {"station_name":"Bengaluru City", "arrival":"Origin","departed":false,"is_current":true},
+            {"station_name":"Katpadi",        "arrival":"09:00", "departed":false,"is_current":false},
+            {"station_name":"Chennai Central","arrival":"11:00", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T014",
+          "train_number": "12628",
+          "train_name_en": "Karnataka Express",
+          "train_name_kn": "ಕರ್ನಾಟಕ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "1",
+          "scheduled_time": "20:00",
+          "destination_en": "New Delhi",
+          "coach_sequence": ["Engine","GEN","L","S1","S2","S3","S4","A1","A2"],
+          "stops": [
+            {"station_name":"Mysuru",         "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"20:00", "departed":false,"is_current":true},
+            {"station_name":"Guntakal",       "arrival":"04:30", "departed":false,"is_current":false},
+            {"station_name":"Wadi",           "arrival":"08:00", "departed":false,"is_current":false},
+            {"station_name":"Pune",           "arrival":"16:00", "departed":false,"is_current":false},
+            {"station_name":"Mumbai",         "arrival":"22:00", "departed":false,"is_current":false},
+            {"station_name":"New Delhi",      "arrival":"10:30", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T015",
+          "train_number": "16516",
+          "train_name_en": "Karwar Yeshvantpur Express",
+          "train_name_kn": "ಕಾರವಾರ ಯಶವಂತಪುರ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "2",
+          "scheduled_time": "09:30",
+          "destination_en": "Hassan",
+          "coach_sequence": ["Engine","GEN","GEN","L","S1","S2","S3","S4","S5"],
+          "stops": [
+            {"station_name":"Karwar",         "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Mangaluru",      "arrival":"04:00", "departed":true, "is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"09:30", "departed":false,"is_current":true},
+            {"station_name":"Hassan",         "arrival":"13:00", "departed":false,"is_current":false},
+            {"station_name":"Arsikere",       "arrival":"14:00", "departed":false,"is_current":false},
+            {"station_name":"Karwar",         "arrival":"22:00", "departed":false,"is_current":false}
+          ]
+        }
+      ]
+    },
+    {
+      "station_id": "MYA",
+      "station_name_en": "Mandya",
+      "station_name_kn": "ಮಂಡ್ಯ",
+      "trains": [
+        {
+          "train_id": "T016",
+          "train_number": "16586",
+          "train_name_en": "Murdeshwar Express",
+          "train_name_kn": "ಮುರಡೇಶ್ವರ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "1",
+          "scheduled_time": "04:21",
+          "destination_en": "Bengaluru",
+          "coach_sequence": ["Engine","GEN","GEN","S1","S2","S3","L","S4"],
+          "stops": [
+            {"station_name":"Murdeshwar",     "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Mangaluru",      "arrival":"01:00", "departed":true, "is_current":false},
+            {"station_name":"Hassan",         "arrival":"00:40", "departed":true, "is_current":false},
+            {"station_name":"Mysuru",         "arrival":"03:15", "departed":true, "is_current":false},
+            {"station_name":"Mandya",         "arrival":"04:21", "departed":false,"is_current":true},
+            {"station_name":"Maddur",         "arrival":"04:45", "departed":false,"is_current":false},
+            {"station_name":"Channapatna",    "arrival":"05:00", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"06:00", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T017",
+          "train_number": "16552",
+          "train_name_en": "Ashokapuram Chennai Express",
+          "train_name_kn": "ಅಶೋಕಪುರಂ ಚೆನ್ನೈ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "2",
+          "scheduled_time": "05:50",
+          "destination_en": "Chennai",
+          "coach_sequence": ["Engine","GEN","GEN","L","S1","S2","S3"],
+          "stops": [
+            {"station_name":"Mysuru",         "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Mandya",         "arrival":"05:50", "departed":false,"is_current":true},
+            {"station_name":"Maddur",         "arrival":"06:10", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"07:30", "departed":false,"is_current":false},
+            {"station_name":"Katpadi",        "arrival":"11:45", "departed":false,"is_current":false},
+            {"station_name":"Chennai Central","arrival":"14:00", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T018",
+          "train_number": "20664",
+          "train_name_en": "Vande Bharat Express",
+          "train_name_kn": "ವಂದೇ ಭಾರತ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "1",
+          "scheduled_time": "06:28",
+          "destination_en": "Chennai",
+          "coach_sequence": ["Engine","CC1","CC2","CC3","CC4","CC5","EC1"],
+          "stops": [
+            {"station_name":"Mysuru",         "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Mandya",         "arrival":"06:28", "departed":false,"is_current":true},
+            {"station_name":"Bengaluru City", "arrival":"08:00", "departed":false,"is_current":false},
+            {"station_name":"Katpadi",        "arrival":"11:30", "departed":false,"is_current":false},
+            {"station_name":"Chennai Central","arrival":"13:30", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T019",
+          "train_number": "12007",
+          "train_name_en": "Shatabdi Express",
+          "train_name_kn": "ಶತಾಬ್ದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "2",
+          "scheduled_time": "07:00",
+          "destination_en": "Mysuru",
+          "coach_sequence": ["Engine","CC1","CC2","CC3","L","CC4","CC5"],
+          "stops": [
+            {"station_name":"Bengaluru City", "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Mandya",         "arrival":"07:00", "departed":false,"is_current":true},
+            {"station_name":"Mysuru",         "arrival":"08:00", "departed":false,"is_current":false}
+          ]
+        },
+        {
+          "train_id": "T020",
+          "train_number": "16021",
+          "train_name_en": "Kaveri Express",
+          "train_name_kn": "ಕಾವೇರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "1",
+          "scheduled_time": "09:40",
+          "destination_en": "Bengaluru",
+          "coach_sequence": ["Engine","GEN","GEN","GEN","L","S1","S2","S3","S4"],
+          "stops": [
+            {"station_name":"Mysuru",         "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Srirangapatna",  "arrival":"09:10", "departed":true, "is_current":false},
+            {"station_name":"Pandavapura",    "arrival":"09:25", "departed":true, "is_current":false},
+            {"station_name":"Mandya",         "arrival":"09:40", "departed":false,"is_current":true},
+            {"station_name":"Maddur",         "arrival":"10:05", "departed":false,"is_current":false},
+            {"station_name":"Channapatna",    "arrival":"10:20", "departed":false,"is_current":false},
+            {"station_name":"Ramanagar",    "arrival":"10:40", "departed":false,"is_current":false},
+            {"station_name":"Bengaluru City", "arrival":"11:30", "departed":false,"is_current":false}
+          ]
+        }
+      ]
+    }
+  ]
+}
