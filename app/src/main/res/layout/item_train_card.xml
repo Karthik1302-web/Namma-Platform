@@ -20,17 +20,14 @@
             android:id="@+id/trainNameKn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/train_name"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            style="@style/TrainTitleText" />
 
         <TextView
             android:id="@+id/trainNumberEn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
-            android:textColor="@color/secondary_text"
-            android:textSize="14sp" />
+            style="@style/SecondaryLabelText" />
 
         <TextView
             android:id="@+id/destination"
