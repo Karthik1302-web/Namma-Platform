@@ -16,7 +16,7 @@
         app:tint="@color/train_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="Back" />
+        android:contentDescription="@string/back_desc" />
 
     <TextView
         android:id="@+id/routeTrainName"
@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="ರೈಲು ನಿಲ್ದಾಣಗಳು • Route Stops"
+        android:text="@string/route_stops_title"
         android:textColor="@color/secondary_text"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@id/routeTrainName"

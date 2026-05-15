@@ -73,7 +73,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        android:text="ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: "
+                        android:text="@string/platform_label"
                         android:textColor="@color/train_name"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -109,7 +109,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="ಬರುವ ಸಮಯ"
+                            android:text="@string/arrival_label"
                             android:textColor="@color/white"
                             android:textSize="14sp" />
 
@@ -133,7 +133,7 @@
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:paddingHorizontal="16dp"
-                android:text="ಹೇಳಿ (Speak)"
+                android:text="@string/speak_button"
                 android:textColor="@color/app_background"
                 android:textSize="12sp"
                 app:cornerRadius="24dp"
@@ -147,7 +147,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="ಬೋಗಿಗಳ ಜೋಡಣೆ (Coach Sequence):"
+            android:text="@string/coach_sequence_label"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="bold" />

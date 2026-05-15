@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">NammaPlatform</string>
+    <string name="app_name">Namma Platform</string>
+    <string name="app_title_kn">ನಮ್ಮ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್</string>
+    <string name="app_title_en">Namma Platform</string>
+    <string name="select_station_kn">ನಿಲ್ದಾಣ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="select_station_en">Select Station</string>
+    <string name="next_trains_kn">ಮುಂದಿನ 3 ರೈಲುಗಳು</string>
+    <string name="next_trains_en"> • Next 3 Trains</string>
+    <string name="no_trains_msg">ಈ ನಿಲ್ದಾಣಕ್ಕೆ ಯಾವುದೇ ರೈಲುಗಳಿಲ್ಲ\nNo trains available for this station</string>
+    <string name="arrival_label">ಬರುವ ಸಮಯ (Arrival):</string>
+    <string name="platform_label">ಪ್ಲಾಟ್‌ಫಾರ್ಮ್: </string>
+    <string name="coach_sequence_label">ಬೋಗಿಗಳ ಜೋಡಣೆ (Coach Sequence):</string>
+    <string name="speak_button">ಹೇಳಿ (Speak)</string>
+    <string name="route_stops_title">ರೈಲು ನಿಲ್ದಾಣಗಳು • Route Stops</string>
+    <string name="you_are_here">● ನೀವು ಇಲ್ಲಿದ್ದೀರಿ</string>
+    <string name="back_desc">Back</string>
 </resources>
