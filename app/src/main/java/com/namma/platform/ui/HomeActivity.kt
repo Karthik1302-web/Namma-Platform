@@ -30,6 +30,7 @@ class HomeActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private val viewModel: TrainViewModel by viewModels()
     private lateinit var repository: TrainRepository
     private lateinit var tts: TextToSpeech
+    private var isTtsReady = false
     private lateinit var trainAdapter: TrainAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -95,7 +96,7 @@ class HomeActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         val emptyMessage: TextView = findViewById(R.id.emptyMessage)
         
         viewModel.selectedStation.observe(this) { station ->
-            stationNameKn.text = "ನಿಲ್ದಾಣ: ${station.stationNameKn}"
+            stationNameKn.text = getString(R.string.station_display_format, station.stationNameKn)
         }
 
         viewModel.trainList.observe(this) { trains ->
@@ -109,7 +110,10 @@ class HomeActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
      * Triggers the Kannada announcement with polished speech rate and pitch.
      */
     private fun speakAnnouncement(train: com.namma.platform.model.Train) {
-        if (!::tts.isInitialized) return
+        if (!::tts.isInitialized || !isTtsReady) {
+            Toast.makeText(this, "ಸಿದ್ಧವಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ಕಾಯಿರಿ...", Toast.LENGTH_SHORT).show()
+            return
+        }
         
         val text = viewModel.buildAnnouncement(train)
         tts.setSpeechRate(0.85f) // Set to a clear, professional speed
@@ -126,6 +130,7 @@ class HomeActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                 tts.language = Locale.US
             } else {
+                isTtsReady = true
                 try {
                     // Attempt to set a high-quality offline Kannada voice
                     val voices = tts.voices

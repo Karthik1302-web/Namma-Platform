@@ -14,4 +14,5 @@
     <string name="route_stops_title">ರೈಲು ನಿಲ್ದಾಣಗಳು • Route Stops</string>
     <string name="you_are_here">● ನೀವು ಇಲ್ಲಿದ್ದೀರಿ</string>
     <string name="back_desc">Back</string>
+    <string name="station_display_format">ನಿಲ್ದಾಣ: %s</string>
 </resources>
