@@ -99,6 +99,25 @@
             {"station_name":"Kozhikode",      "arrival":"02:30", "departed":false,"is_current":false},
             {"station_name":"Kochuveli",      "arrival":"08:00", "departed":false,"is_current":false}
           ]
+        },
+        {
+          "train_id": "T021",
+          "train_number": "16515",
+          "train_name_en": "Yeshvantpur Karwar Express",
+          "train_name_kn": "ಯಶವಂತಪುರ ಕಾರವಾರ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": "2",
+          "scheduled_time": "11:45",
+          "destination_en": "Karwar",
+          "coach_sequence": ["Engine","GEN","GEN","L","S1","S2","S3","S4"],
+          "stops": [
+            {"station_name":"Yeshvantpur",    "arrival":"Origin","departed":true, "is_current":false},
+            {"station_name":"Tumakuru",       "arrival":"08:00", "departed":true, "is_current":false},
+            {"station_name":"Arsikere",       "arrival":"10:30", "departed":true, "is_current":false},
+            {"station_name":"Hassan",         "arrival":"11:45", "departed":false,"is_current":true},
+            {"station_name":"Sakleshpur",     "arrival":"13:00", "departed":false,"is_current":false},
+            {"station_name":"Mangaluru",      "arrival":"18:00", "departed":false,"is_current":false},
+            {"station_name":"Karwar",         "arrival":"22:30", "departed":false,"is_current":false}
+          ]
         }
       ]
     },
